@@ -1,0 +1,263 @@
+.container {
+  width:100%;
+  margin: auto;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#leftcolumn
+{
+  float:left;
+  width: 300px;
+  height: 800px;
+  background:black;
+}
+
+#rightcolumn {
+  float:right;
+  width:300px;
+  height:800px;
+  background:black;
+}
+#lineindex1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 410px;
+}
+#linephotos1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+#lineabout1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
+#linecontact1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 46px;
+}
+#lineindex2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#facebookbutton {
+  margin-top:30px;
+  text-align:center;
+}
+.form {
+   position:relative;
+   margin-top:20px;
+   text-align: justify;
+   margin-left: auto;
+   margin-right: auto;
+   width:450px;
+}
+#tablecrap {
+  width:360;
+}
+#contactfooter {
+  text-align:right;
+  margin-top:40px;
+  font-size:10px;
+}
+.fadein { position:relative; width:400px; height:40px;
+  margin-left: auto; margin-right: auto;}
+.fadein img { position:absolute; top:200;
+  margin-left: auto; margin-right: auto; margin-top: 20px;}
+
+  #pictures {
+    width: 400px;
+    height: 400px;
+  }
+  #colinpic {
+    width: 396px;
+    height: 396px;
+  }
+  #photos {
+    width: 378px;
+    height: 378px;
+  }
+
+
+.wrapper {
+      text-align: center;
+    }
+
+#otherpage {margin-top: 0px}
+
+#circle {
+  width:24px;
+  height:24px;
+}
+#buttoncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+    .tile_div a {
+        float: left;
+        width: 300px;
+        height: 30px;
+        text-decoration: none;
+        font-family: 'Vesper Libre', serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: black;
+    }
+#listline {height: 30px}
+
+    .clear {
+        clear: both;
+    }
+  #slideshow {
+    width:400px;
+    height:400px;
+    text-align:center;
+    margin:auto;
+  }
+
+@media screen and (max-width:1550px) {
+
+      #rightcolumn{
+        width:15%;
+      }
+      #leftcolumn{
+        width:15%;
+      }
+      #logo {
+        width:45%;
+      }
+      #lineindex1 {
+        width:45%;
+    }
+    #linephotos1 {
+      width:45%;
+  }
+  #lineabout1 {
+    width:45%;
+}
+    #lineindex2 {
+      width:45%;
+  }
+  #linecontact1{
+    width:45%;
+  }
+  .tile_div a {
+    width:23%;
+  }
+    }
+@media screen and (max-width:940px) {
+  #rightcolumn{
+    width:0%;
+    height:0%;
+  }
+  #leftcolumn{
+    width:0%;
+    height:0%;
+  }
+  #logo {
+    width:75%;
+  }
+  .fadein img {margin-top: 33px;}
+
+  #pictures {
+    width:80%;
+    height:800%;
+    margin-left: 8%;
+  }
+  #facebookbutton {
+    margin-top:15px;
+  }
+  #photos {
+    width: 300px;
+    height: 300px;
+  }
+  #colinpic {
+    width: 347px;
+    height: 347px;
+  }
+  #lineindex1 {
+    width:75%;
+    margin-top:361px;
+  }
+  #linephotos1 {
+    margin-top: 44px;
+    width:75%;
+}
+#lineabout1 {
+  width:75%;
+  margin-top:0px;
+}
+#linecontact1{
+  width:75%;
+  margin-top: 12px;
+}
+  #lineindex2 {
+    margin-top: 110px;
+    width:75%;
+  }
+  .tile_div a {
+    width:100%;
+    height:50px;
+  }
+
+@media screen and (max-width:380px){
+  #logo {
+    width:95%;}
+  #pictures {
+    margin-left: 0px;
+    width:325px;
+    height:325px;}
+    #colinpic {
+      width: 310px;
+      height: 310px;
+    }
+    #lineabout1 {
+      margin-top:37px;
+    }
+
+    .fadein {width:325px}
+}
+
+@media screen and (max-width:320px){
+  .fadein {width:275px;}
+  #pictures {width:275px; height:275px;}
+#lineindex1 {
+  margin-top:311px;
+}
+#colinpic {
+  width: 255px;
+  height: 255px;
+}
+#lineabout1 {
+  margin-top:42px;
+}
+#linephotos1 {
+  margin-top: 19px;
+}
+#photos {
+  width: 275px;
+  height: 275px;
+}
+#facebookbutton {
+  margin-top:15px;
+}
+#linecontact1{
+  margin-top: 12px;
+}
+
+}
